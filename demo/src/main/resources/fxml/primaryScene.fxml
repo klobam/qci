@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" maxWidth="1.7976931348623157E308" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.clientqci.primarySceneController">
+    <children>
+        <Button layoutX="482.0" layoutY="381.0" onAction="#switchToChatScene" prefHeight="25.0" prefWidth="82.0" text="Continue" />
+        <Label fx:id="lblQCI" layoutX="53.0" layoutY="30.0" minHeight="16" minWidth="69" prefHeight="52.0" prefWidth="215.0" text="QCI">
+         <font>
+            <Font name="Modern No. 20" size="48.0" />
+         </font></Label>
+      <Button layoutX="413.0" layoutY="381.0" mnemonicParsing="false" opacity="0.41" text="Cancel" />
+      <Label contentDisplay="CENTER" layoutX="53.0" layoutY="96.0" prefHeight="38.0" prefWidth="122.0" text="Server IP :" />
+      <TextField fx:id="IPField" layoutX="175.0" layoutY="103.0" />
+      <Label contentDisplay="CENTER" layoutX="53.0" layoutY="159.0" prefHeight="38.0" prefWidth="122.0" text="Username :" />
+      <TextField fx:id="UsernameField" layoutX="175.0" layoutY="166.0" />
+    </children>
+</AnchorPane>
